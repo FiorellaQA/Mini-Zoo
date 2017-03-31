@@ -5,12 +5,22 @@
 body, html {
   height: 100%;
 }
+h1{
+	font-size: 80px;
+	color:green;
+	text-shadow: 1px 1px #fff;
+}
 .flex-container {
   display: flex;
   flex-direction: column;
-  padding: 100px;
-  background: url("../img/header.jpg");
+  padding: 50px;
+  background: url("../img/heade.jpg") no-repeat center fixed; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
   height: 200px;
+  align-items: center;
 }
 .flex-container .flex-item {
 	padding: 10px;
